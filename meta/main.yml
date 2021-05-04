@@ -1,4 +1,5 @@
 ---
+dependencies: []
 
 galaxy_info:
   author: EDITD devs
@@ -7,14 +8,12 @@ galaxy_info:
   license: MIT
   min_ansible_version: 1.9
   platforms:
-  - name: Ubuntu
-    versions:
-    - precise
-    - trusty
-  categories:
-  - cloud
-  - development
-  - packaging
-  - system
-  - web
-dependencies: []
+    - name: Ubuntu
+      versions:
+      - all
+  galaxy_tags:
+    - cloud
+    - development
+    - packaging
+    - system
+    - web
